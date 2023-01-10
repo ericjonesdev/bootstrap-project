@@ -66,6 +66,9 @@ body {
     margin-top: 0;
 }
 
+.quotes .page-header {
+    margin-bottom: 25px;
+}
 
 /*block dividers*/
 
@@ -78,6 +81,10 @@ body {
 
 .block-divider--darkyellow {
     background-color: #9d9d07;
+}
+
+.block-divider--white {
+    background-color: white;
 }
 
 .block-divider--short {
@@ -96,6 +103,7 @@ body {
 .table-container {
     padding-top: 35px;
     padding-bottom: 35px;
+    background-color: beige;
 }
 
 .monthly-margin {
@@ -175,4 +183,37 @@ body {
 .btn--red:active:focus {
     background-color: rgb(153, 7, 7);
     border-color: rgb(153, 7, 7);
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:rgb(123, 57, 57);
+}
+
+/* Readme Buttons */
+
+.box {
+    width: 30%;
+    float: left;
+    margin: 50px 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
 }
